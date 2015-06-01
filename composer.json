@@ -1,0 +1,12 @@
+{
+    "name": "root/test.dsi-tools.com",
+    "require": {
+        "zendframework/zendframework1": "~1.12"
+    },
+    "authors": [
+        {
+            "name": "EBEST",
+            "email": "ebest@me.com"
+        }
+    ]
+}

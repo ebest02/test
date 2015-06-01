@@ -1,0 +1,98 @@
+<!DOCTYPE HTML>
+<html>
+	<head>
+		<title>Test / Etienne</title>
+		<meta charset="utf-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1" />
+		<!--[if lte IE 8]><script src="http://dsi-tools.com/assets/js/ie/html5shiv.js"></script><![endif]-->
+		<link rel="stylesheet" href="http://dsi-tools.com/assets/css/main.css" />
+		<!--[if lte IE 8]><link rel="stylesheet" href="http://dsi-tools.com/assets/css/ie8.css" /><![endif]-->
+		<!--[if lte IE 9]><link rel="stylesheet" href="http://dsi-tools.com/assets/css/ie9.css" /><![endif]-->
+	</head>
+	<body>
+
+		<!-- Header -->
+		<?php
+		echo $this->partial('header.phtml',array());
+
+		?>
+
+		<!-- Main -->
+			<div id="main">
+
+				<!-- Intro -->
+					<section id="top" class="one dark cover">
+						<div class="container">
+
+							<header>
+								<h2 class="alt"><strong>Liste de course</strong>
+								</h2>
+                                <a href="/product/deleteall" class="button">VIDER LA LISTE</a>
+							</header>
+
+                            <?php
+
+        		              echo $this->layout()->content;
+
+        		            ?>
+							<footer>
+								<a href="#edition" class="button scrolly">MODIFIER</a>
+							</footer>
+
+						</div>
+					</section>
+
+				<!-- Portfolio -->
+					<section id="edition" class="two">
+						<div class="container">
+
+							<header>
+								<h2>AJOUTER à la LISTE</h2>
+							</header>
+
+							<p>
+                                <?php
+                                echo $this->form;
+                                ?>
+							</p>
+
+                            <h2>VIDER la CATEGORIE</h2>
+
+                            <form action="/product/deletecat">
+                                <select name="c_id">
+                                    <option value="1">Nourriture</option>
+                                    <option value="2">Boisson</option>
+                                    <option value="3">Produit d'entretien</option>
+                                </select><br/>
+                                <input type="submit" value="VIDER">
+                            </form>
+
+						</div>
+					</section>
+
+
+
+			</div>
+
+		<!-- Footer -->
+			<div id="footer">
+
+				<!-- Copyright -->
+					<ul class="copyright">
+						<li>&copy; ebest. All rights reserved.</li>
+						<li></li>
+					</ul>
+
+			</div>
+
+		<!-- Scripts -->
+			<script src="http://dsi-tools.com/assets/js/jquery.min.js"></script>
+			<script src="http://dsi-tools.com/assets/js/jquery.scrolly.min.js"></script>
+			<script src="http://dsi-tools.com/assets/js/jquery.scrollzer.min.js"></script>
+			<script src="http://dsi-tools.com/assets/js/skel.min.js"></script>
+			<script src="http://dsi-tools.com/assets/js/util.js"></script>
+			<!--[if lte IE 8]><script src="http://dsi-tools.com/assets/js/ie/respond.min.js"></script><![endif]-->
+			<script src="http://dsi-tools.com/assets/js/main.js"></script>
+
+	</body>
+</html>
