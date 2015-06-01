@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 This a demo repo for Bonzaï Digital appliant's test
 It contains default files for :
 - composer (composer.json)
@@ -11,3 +12,7 @@ You can take this as an example, but must create your own repository for the tes
 
 This repo should've installed most of the Zend 1.1x library.
 Take necessary actions to add subsequent modules and make everything available within your project.
+=======
+# test
+Application de test
+>>>>>>> a0521dd3d0427266c6c7d0c56aafbb6a3dbbf6b8
