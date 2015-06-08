@@ -1,18 +1,51 @@
-<<<<<<< HEAD
-This a demo repo for Bonzaï Digital appliant's test
-It contains default files for :
-- composer (composer.json)
-- node (packages.json)
-- grunt (gruntfile.js)
+liser une application simple de liste de courses.
 
-You NEED to have these three files in your project to be able to deploy through cap, as he will run grunt and composer tasks.
-Take necessary actions for the project to work correctly.
+Contraintes :
 
-You can take this as an example, but must create your own repository for the test's purposes.
+  - Utiliser Zend Framework 1 (version 1.12.x)
 
-This repo should've installed most of the Zend 1.1x library.
-Take necessary actions to add subsequent modules and make everything available within your project.
-=======
-# test
-Application de test
->>>>>>> a0521dd3d0427266c6c7d0c56aafbb6a3dbbf6b8
+  - Fournir un code « production ready », sous la forme d’un repository Github.
+
+  - Utiliser un système de versionning (git/github) .
+
+  - Proposer un patch de l’application bonzaidigital-tr avec les changements a y apporter pour pouvoir déployer VOTRE application.
+
+Description :
+
+Vous devez rédiger une application web avec PHP 5 et Zend Framework 1.12.x pour faciliter la préparation des listes de courses.
+
+Vous pouvez utiliser tous les plugins, add-ons, bibliothèques, outils, etc… que vous jugerez nécéssaire et justifierez, le cas échéant, vos choix.
+
+On trouvera deux entités : 
+
+  - Les catégories de produit (nourriture, boisson, produit d’entretien)
+
+  - Les produits, qui sont définis par leur nom et sont rattachés a une catégorie
+
+Les fonctionnalités a implémenter sont :
+
+  - Ajouter un produit a la liste de courses
+
+  - Trier la liste de courses par catégories
+
+  - Supprimer un produit de la liste de courses
+
+  - Supprimer tous les produits de la liste de courses
+
+  - Supprimer tous les produits d’une catégorie donnée de ma liste de courses.
+
+Critères d’évaluation:
+
+  - Réalisation de l’intégralité de la tache en suivant toutes les contraintes spécifiées.
+
+  - Respect des best practices
+
+  - Qualité du code (lisibilité, modularité, design, etc…)
+
+  - Choix technologiques (si vous en avez fait en plus de ZF)
+
+  - Pragmatisme de l’ensemble de l’application.
+
+  - Capacité a comprendre et résoudre la problématique du client.
+
+
